@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(93, 111, 210) 0%, rgb(139, 102, 241) 100%);
+}
+
+/*Header with Logo and Menu*/
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+
+#company-logo {
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+
+#menu {
+    font-size: 150%;
+}
+
+#company-logo,
+#menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-left: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.clicked {
+    border-bottom: 5px solid #fff;
+    border-top: 5px solid #fff;
+}
+
+/* First Section */
+#section-one {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+    background: url(../images/section-one-bg.jpg) no-repeat center/cover;
+}
+
+#section-one-text h1 {
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    width: 750px;
+    height: 200px;
+    padding: 100px 100px 0 100px;
+    color: #fff;
+    text-align: center;
+}
+
+#section-one-text p {
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+#section-one-button {
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: hotpink;
+    color: #fff;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 145%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#section-one-button:hover {
+    background-color: #fff;
+    color: hotpink;
+    border: 5px solid hotpink;
+    text-decoration: underline;
+}
+
+/* Section 2 - Why Us?*/
+#section-two {
+    height: 500px;
+}
+
+#section-two-text {
+    font-size: 250%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    padding: 100px 100px 0 100px;
+    color: #fff;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid white;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+#section-two-reasons {
+    display: flex;
+}
+
+#s2-reason-one {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#s2-reason-two {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#s2-reason-three {
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+
+.s2-reason-header {
+    font-size: 250%;
+}
+
+.s2-reason-text {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+/* Section 3 - Our Platforms*/
+#section-three {
+    height: 350px;
+    width: 100%;
+    background: url(../images/section-three-bg.jpg) no-repeat center/cover;
+}
+
+#section-three-text {
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    padding: 5px 100px 0 100px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#section-three div {
+    color: #fafafa;
+    width: 33%;
+    margin: 0 auto;
+    padding: 55px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#section-three div:hover {
+    color: #0FF0FC;
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    font-size: 500%;
+}
+
+/* Footer Section*/
+footer {
+    height: 165px;
+    padding-top: 50px;
+}
+
+#footer-left {
+    width: 33%;
+    float: left;
+    margin-left: 75px;
+}
+
+#footer-left h3 {
+    font-size: 150%;
+    padding-bottom: 15px;
+}
+
+#footer-left p {
+    padding-bottom: 10px;
+}
+
+#footer-center {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#footer-center h3 {
+    font-size: 150%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#footer-right {
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media>li>a {
+    text-decoration: none;
+}
+
+.social-media i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
+}
+
+.social-media i:hover {
+    color: #000;
+}
+
+/* Team Page */
+
+#team-section {
+    background-color: #252525;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#team-section-info {
+    display: flex;
+}
+
+#team-section-text {
+    font-size: 250%;
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    padding: 5px 100px 0 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.team-photo {
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.team-name-header {
+    font-size: 200%;
+    padding-bottom: 15px;
+}
+
+.team-title {
+    padding: 10px 0;
+}
+
+.team-description {
+    padding-bottom: 10px;
+}
+
+#team-ceo {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#team-cto {
+    width: 33%;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#team-coo {
+    width: 33%;
+    float: right;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#team-cfo {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#team-cmo {
+    width: 33%;
+    float: right;
+    text-align: center;
+    padding: 0 25px;
+}
+
+/* About Us Page */
+#about-section-one {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 850px;
+    background: url(../images/about-background.jpg) no-repeat center/cover;
+}
+
+#about-header {
+    font-size: 250%;
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    padding: 60px 100px 0 100px;
+    color: #fff;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.about-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#game-creation {
+    display: flex;
+}
+
+#mobile {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#pc {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#console {
+    width: 33%;
+    float: right;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    font-size: 500%;
+}
+
+.game-header {
+    font-size: 200%;
+    padding-top: 20px;
+}
+
+/* Responsive Design */
+/* Screens from 1200px and less */
+@media screen and (max-width: 1200px) {
+    #section-two-text {
+        padding: 10px 100px 0 100px;
+    }
+
+    #section-two {
+        height: 400px;
+    }
+
+    #team-section-info {
+        display: flex;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer-left {
+        margin-left: 30px;
+    }
+}
+
+/* Screens from 950px and less */
+@media screen and (max-width: 950px) {
+    nav {
+        display: flex;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #team-section-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer-left {
+        margin-left: 10px;
+    }
+
+    .social-media {
+        text-align: center;
+        display: block;
+        width: 165px;
+    }
+}
+
+/* Screens from 800px and less */
+@media screen and (max-width: 800px) {
+    #section-one {
+        height: 475px;
+    }
+
+    #section-one-text h1 {
+        font-size: 150%;
+        width: 450px;
+        padding: 75px 0 0 0;
+    }
+
+    #section-two {
+        height: 700px;
+    }
+
+    #section-two-text {
+        font-size: 190%;
+        width: 500px;
+        padding: 0;
+        height: 75px;
+    }
+
+    hr {
+        padding: 0;
+    }
+
+    #s2-reason-one {
+        border-right: 1px solid white;
+    }
+
+    #s2-reason-three {
+        border-left: 1px solid white;
+    }
+
+    .s2-reason-header {
+        font-size: 175%;
+    }
+
+    .s2-reason-text {
+        text-align: left;
+        padding: 24px 20px;
+    }
+
+    #section-three {
+        height: 450px;
+    }
+
+    #section-three-text {
+        font-size: 200%;
+        width: 450px;
+        height: 0;
+        padding: 5px 0 0 0;
+    }
+
+    #section-three div {
+        display: block;
+    }
+
+    #about-section-one {
+        height: 755px;
+    }
+
+    #about-header {
+        font-size: 175%;
+        width: 450px;
+        height: 50px;
+        padding: 25px 0 0 0;
+    }
+
+    .about-text {
+        font-size: 125%;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 250%;
+    }
+
+    .fa-brands,
+    .fab {
+        font-size: 250%;
+    }
+
+    .game-header {
+        font-size: 150%;
+    }
+
+    #team-section {
+        height: auto;
+    }
+
+    #team-section-text {
+        font-size: 200%;
+        width: 450px;
+        height: 60px;
+        padding: 5px 0 0 0;
+    }
+
+    #team-section-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #team-ceo,
+    #team-cto,
+    #team-coo,
+    #team-cfo,
+    #team-cmo {
+        width: 45%;
+        margin: 0 auto;
+        padding: 0 25px 15px;
+    }
+
+    footer {
+        padding-top: 25px;
+    }
+
+    #footer-left {
+        margin-left: 10px;
+    }
+
+    #footer-right {
+        padding-top: 30px;
+    }
+}
+
+/* Screens from 800px and less */
+@media screen and (max-width: 400px) {
+    #section-one {
+        height: 475px;
+    }
+
+    #section-one-text h1 {
+        font-size: 150%;
+        width: 400px;
+        padding: 45px 0 0 0;
+    }
+
+    #section-two {
+        height: 850px;
+    }
+
+    #section-two-text {
+        width: 400px;
+    }
+
+    hr {
+        padding: 0;
+    }
+
+    #s2-reason-one {
+        border-right: 1px solid white;
+    }
+
+    #s2-reason-three {
+        border-left: 1px solid white;
+    }
+
+    .s2-reason-header {
+        font-size: 145%;
+    }
+
+    .s2-reason-text {
+        text-align: left;
+        padding: 24px 20px;
+    }
+
+    #section-three {
+        height: 350px;
+    }
+
+    #section-three-text {
+        width: 400px;
+    }
+
+    #section-three div {
+        padding: 60px 0 0 0;
+    }
+
+    #about-section-one {
+        height: 755px;
+    }
+
+    #about-header {
+        font-size: 175%;
+        width: 450px;
+        height: 50px;
+        padding: 25px 0 0 0;
+    }
+
+    .about-text {
+        font-size: 125%;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 250%;
+    }
+
+    .fa-brands,
+    .fab {
+        font-size: 250%;
+    }
+
+    .game-header {
+        font-size: 150%;
+    }
+
+    #team-section {
+        height: auto;
+    }
+
+    #team-section-text {
+        font-size: 200%;
+        width: 450px;
+        height: 60px;
+        padding: 5px 0 0 0;
+    }
+
+    #team-section-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #team-ceo,
+    #team-cto,
+    #team-coo,
+    #team-cfo,
+    #team-cmo {
+        width: 45%;
+        margin: 0 auto;
+        padding: 0 25px 15px;
+    }
+
+    footer {
+        padding-top: 25px;
+    }
+
+    #footer-left {
+        margin-left: 10px;
+    }
+
+    #footer-center {
+        width: 40%;
+    }
+
+    #footer-right {
+        padding-top: 30px;
+    }
+
+    #menu {
+        font-size: 105%;
+    }
+}
