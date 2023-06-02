@@ -34,6 +34,13 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [W3C Validator](#w3c-validator)
+  - [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+      - [Background Images](#background-images)
+      - [Teams Images](#teams-images)
+    - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -148,6 +155,8 @@ Font Awesome - For Icons.
 
 [TextGenerationAPI] (https://deepai.org/machine-learning-model/text-generator) to generate random text for the website.
 
+[letsmakeagame] (https://letsmakeagame.net/video-game-company-name-generator/) to generate a Company Name
+
 ---
 
 ## Deployment & Local Development
@@ -194,3 +203,38 @@ Testing was done constantly before and after pushing new changes to the master b
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+- [Index Page HTML](docs/home.png)
+- [About Us Page HTML](docs/about.png)
+- [Team Page HTML](docs/team.png)
+- [style.css CSS](docs/stylescss.png)
+
+## Credits
+
+The initial inspiration for this project was by this site: (https://gamedevelopmentstudio.sites.motocms.com/?_ga=2.170778532.569467297.1685358573-309073917.1685358573)
+
+### Code Used
+
+- [SheCode - CSS Gradient Generator] (<https://generators.shecodes.io/css-gradient-generator>)
+
+### Content
+
+Content for this Website was part of the 1st Code Institute Project and purely made by me. - Pave (Retr01234)
+
+### Media
+
+#### Background Images
+
+- [1st Image on Homepage] (https://www.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_7671274.htm#query=game%20art&position=1&from_view=keyword&track=ais)
+- [2nd Image on Homepage] (https://www.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_17740155.htm#query=game%20background&position=0&from_view=search&track=ais)
+- [3rd Image on About Us Page] (https://www.freepik.com/free-vector/dangerous-alien-planet-surface-with-rocky-surface_36102402.htm#query=game%20background%20moon%20dark&position=12&from_view=search&track=ais)
+
+#### Teams Images
+
+- [CEO] (https://unsplash.com/photos/ILip77SbmOE)
+- [CTO] (https://unsplash.com/photos/TY_n-fQyAA8)
+- [COO] (https://unsplash.com/photos/WMD64tMfc4k)
+- [CFO] (https://unsplash.com/photos/mEZ3PoFGs_k)
+- [COO] (<https://unsplash.com/photos/ZXfUUM_LR0k>)
+
+### Acknowledgments
