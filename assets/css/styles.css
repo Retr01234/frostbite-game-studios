@@ -14,6 +14,17 @@ body {
 }
 
 /*Header with Logo and Menu*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
 h1,
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -24,7 +35,6 @@ h2 {
 
 
 #company-logo {
-    float: left;
     width: 350px;
     height: 100px;
 }
@@ -36,13 +46,13 @@ h2 {
 #company-logo,
 #menu {
     line-height: 75px;
+    display: flex;
 }
 
 #menu li {
-    float: right;
+
     list-style-type: none;
-    margin-right: 30px;
-    padding-left: 25px;
+    margin-right: 2rem;
 }
 
 #menu a {
@@ -75,7 +85,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
     margin: 0 auto;
-    width: 750px;
     height: 200px;
     padding: 100px 100px 0 100px;
     color: #fff;
@@ -118,16 +127,11 @@ h2 {
 }
 
 /* Section 2 - Why Us?*/
-#section-two {
-    height: 500px;
-}
-
 #section-two-text {
     font-size: 250%;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
     margin: 0 auto;
-    width: 750px;
     height: 100px;
     padding: 100px 100px 0 100px;
     color: #fff;
@@ -146,20 +150,14 @@ hr {
 }
 
 #s2-reason-one {
-    width: 33%;
-    float: left;
     text-align: center;
 }
 
 #s2-reason-two {
-    width: 33%;
-    margin: 0 auto;
     text-align: center;
 }
 
 #s2-reason-three {
-    width: 33%;
-    float: right;
     text-align: center;
 }
 
@@ -184,7 +182,6 @@ hr {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5px;
     margin: 0 auto;
-    width: 750px;
     height: 100px;
     padding: 5px 100px 0 100px;
     color: #fff;
@@ -215,13 +212,13 @@ hr {
 
 /* Footer Section*/
 footer {
-    height: 165px;
     padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #footer-left {
-    width: 33%;
-    float: left;
     margin-left: 75px;
 }
 
@@ -234,29 +231,20 @@ footer {
     padding-bottom: 10px;
 }
 
-#footer-center {
-    width: 33%;
-    margin: 0 auto;
-}
-
 #footer-center h3 {
     font-size: 150%;
     padding-bottom: 15px;
     text-align: center;
 }
 
-#footer-right {
-    width: 33%;
-    float: right;
-    text-align: right;
-}
-
 .social-media {
     text-align: center;
+    display: flex;
 }
 
 .social-media>li {
     display: inline;
+    padding: 0 15px;
 }
 
 .social-media>li>a {
@@ -290,7 +278,6 @@ footer {
 #team-section-text {
     font-size: 250%;
     margin: 0 auto;
-    width: 750px;
     height: 100px;
     padding: 5px 100px 0 100px;
     color: #fff;
@@ -317,35 +304,26 @@ footer {
 }
 
 #team-ceo {
-    width: 33%;
-    float: left;
     text-align: center;
     padding: 0 25px;
 }
 
 #team-cto {
-    width: 33%;
     text-align: center;
     padding: 0 25px;
 }
 
 #team-coo {
-    width: 33%;
-    float: right;
     text-align: center;
     padding: 0 25px;
 }
 
 #team-cfo {
-    width: 33%;
-    float: left;
     text-align: center;
     padding: 0 25px;
 }
 
 #team-cmo {
-    width: 33%;
-    float: right;
     text-align: center;
     padding: 0 25px;
 }
@@ -355,14 +333,12 @@ footer {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 850px;
     background: url(../images/about-background.jpg) no-repeat center/cover;
 }
 
 #about-header {
     font-size: 250%;
     margin: 0 auto;
-    width: 750px;
     height: 100px;
     padding: 60px 100px 0 100px;
     color: #fff;
@@ -382,27 +358,13 @@ footer {
 
 #game-creation {
     display: flex;
+    justify-content: space-around;
 }
 
-#mobile {
-    width: 33%;
-    float: left;
-    text-align: center;
-    padding: 0 25px;
-}
-
-#pc {
-    width: 33%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 25px;
-}
-
+#mobile,
+#pc,
 #console {
-    width: 33%;
-    float: right;
     text-align: center;
-    padding: 0 25px;
 }
 
 .fa-solid,
@@ -416,15 +378,15 @@ footer {
     padding-top: 20px;
 }
 
+#footer-right {
+    padding: 125px 15px 5px 0;
+}
+
 /* Responsive Design */
 /* Screens from 1200px and less */
 @media screen and (max-width: 1200px) {
     #section-two-text {
         padding: 10px 100px 0 100px;
-    }
-
-    #section-two {
-        height: 400px;
     }
 
     #team-section-info {
@@ -444,8 +406,6 @@ footer {
 @media screen and (max-width: 950px) {
     nav {
         display: flex;
-        width: 500px;
-        margin: 0 auto;
     }
 
     #team-section-info {
@@ -455,50 +415,58 @@ footer {
         justify-content: center;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #footer-left {
         margin-left: 10px;
+        text-align: center;
+    }
+
+    #footer-center {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    #footer-right {
+        text-align: center;
+        padding: 125px 15px 5px 0;
     }
 
     .social-media {
         text-align: center;
         display: block;
-        width: 165px;
     }
 }
 
 /* Screens from 800px and less */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
     #section-one {
         height: 475px;
     }
 
     #section-one-text h1 {
         font-size: 150%;
-        width: 450px;
         padding: 75px 0 0 0;
-    }
-
-    #section-two {
-        height: 700px;
     }
 
     #section-two-text {
         font-size: 190%;
-        width: 500px;
+        /*width: 500px;*/
         padding: 0;
         height: 75px;
     }
 
     hr {
         padding: 0;
-    }
-
-    #s2-reason-one {
-        border-right: 1px solid white;
-    }
-
-    #s2-reason-three {
-        border-left: 1px solid white;
     }
 
     .s2-reason-header {
@@ -516,7 +484,6 @@ footer {
 
     #section-three-text {
         font-size: 200%;
-        width: 450px;
         height: 0;
         padding: 5px 0 0 0;
     }
@@ -525,15 +492,10 @@ footer {
         display: block;
     }
 
-    #about-section-one {
-        height: 755px;
-    }
-
     #about-header {
         font-size: 175%;
-        width: 450px;
         height: 50px;
-        padding: 25px 0 0 0;
+        padding: 25px 0;
     }
 
     .about-text {
@@ -560,7 +522,6 @@ footer {
 
     #team-section-text {
         font-size: 200%;
-        width: 450px;
         height: 60px;
         padding: 5px 0 0 0;
     }
@@ -575,25 +536,33 @@ footer {
     #team-coo,
     #team-cfo,
     #team-cmo {
-        width: 45%;
         margin: 0 auto;
         padding: 0 25px 15px;
     }
 
     footer {
-        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #footer-left {
         margin-left: 10px;
+        text-align: center;
+    }
+
+    #footer-center {
+        text-align: center;
+        padding-top: 25px;
     }
 
     #footer-right {
-        padding-top: 30px;
+        text-align: center;
+        padding: 10px;
     }
 }
 
-/* Screens from 800px and less */
+/* Screens from 400px and less */
 @media screen and (max-width: 400px) {
     #section-one {
         height: 475px;
@@ -601,28 +570,25 @@ footer {
 
     #section-one-text h1 {
         font-size: 150%;
-        width: 400px;
         padding: 45px 0 0 0;
     }
 
+    #section-two-reasons {
+        display: flex;
+        flex-direction: column;
+    }
+
     #section-two {
-        height: 850px;
+        display: flex;
+        flex-direction: column;
     }
 
     #section-two-text {
-        width: 400px;
+        padding: 10px;
     }
 
     hr {
         padding: 0;
-    }
-
-    #s2-reason-one {
-        border-right: 1px solid white;
-    }
-
-    #s2-reason-three {
-        border-left: 1px solid white;
     }
 
     .s2-reason-header {
@@ -630,7 +596,7 @@ footer {
     }
 
     .s2-reason-text {
-        text-align: left;
+        text-align: center;
         padding: 24px 20px;
     }
 
@@ -638,23 +604,14 @@ footer {
         height: 350px;
     }
 
-    #section-three-text {
-        width: 400px;
-    }
-
     #section-three div {
         padding: 60px 0 0 0;
     }
 
-    #about-section-one {
-        height: 755px;
-    }
-
     #about-header {
         font-size: 175%;
-        width: 450px;
         height: 50px;
-        padding: 25px 0 0 0;
+        padding: 25px 0;
     }
 
     .about-text {
@@ -681,7 +638,6 @@ footer {
 
     #team-section-text {
         font-size: 200%;
-        width: 450px;
         height: 60px;
         padding: 5px 0 0 0;
     }
@@ -696,25 +652,29 @@ footer {
     #team-coo,
     #team-cfo,
     #team-cmo {
-        width: 45%;
         margin: 0 auto;
         padding: 0 25px 15px;
     }
 
     footer {
-        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #footer-left {
         margin-left: 10px;
+        text-align: center;
     }
 
     #footer-center {
-        width: 40%;
+        text-align: center;
+        padding-top: 25px;
     }
 
     #footer-right {
-        padding-top: 30px;
+        text-align: center;
+        padding: 10px;
     }
 
     #menu {
