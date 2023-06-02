@@ -2,7 +2,7 @@
 
 The Frostbite Studios Website can be viewed on all devices to allow users to see who and what exactly Frostbite Game Studios is.
 
-![Frostbite Studios Website shown on a range of devices](assets/images/frostbite*studios*site.jpg)
+![Frostbite Studios Website shown on a range of devices](assets/images/frostbite-studios-site.jpg)
 
 [View Frostbite Studios on Github Pages]()
 
@@ -35,7 +35,8 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
   - [Testing](#testing)
     - [W3C Validator](#w3c-validator)
     - [W3C Validator](#w3c-validator-1)
-    - [Testing User Stories](#testing-user-stories)
+    - [Manual Testing](#manual-testing)
+      - [Testing User Stories](#testing-user-stories)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -213,7 +214,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### W3C Validator
 
-### Testing User Stories
+### Manual Testing
+
+#### Testing User Stories
 
 `First Time Visitors`
 
