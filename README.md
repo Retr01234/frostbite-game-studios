@@ -34,6 +34,8 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [W3C Validator](#w3c-validator)
+    - [W3C Validator](#w3c-validator-1)
+    - [Testing User Stories](#testing-user-stories)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -166,7 +168,7 @@ Font Awesome - For Icons.
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, (https://github.com/Retr01234/HTML-CSS-Project-1) HTML-CSS-Project-1.
+2. Find the repository for this project, (https://github.com/Retr01234/frostbite-game-studios) frostbite-game-studios.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -176,10 +178,10 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### How to Fork
 
-To fork the HTML-CSS-Project-1 repository:
+To fork the frostbite-game-studios repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, (https://github.com/Retr01234/HTML-CSS-Project-1)HTML-CSS-Project-1.
+2. Go to the repository for this project, (https://github.com/Retr01234/frostbite-game-studios)frostbite-game-studios.
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -187,7 +189,7 @@ To fork the HTML-CSS-Project-1 repository:
 To clone the Bully-Book-Club repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, (<https://github.com/Retr01234/HTML-CSS-Project-1>) HTML-CSS-Project-1.
+2. Go to the repository for this project, (<https://github.com/Retr01234/frostbite-game-studios>) frostbite-game-studios.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -208,6 +210,32 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 - [About Us Page HTML](docs/about.png)
 - [Team Page HTML](docs/team.png)
 - [style.css CSS](docs/stylescss.png)
+
+### W3C Validator
+
+### Testing User Stories
+
+`First Time Visitors`
+
+| Goals                                                                    | How are they achieved?                                                                                                                                   |
+| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| I want to share the whole story about Frostbite Studios with the people. | The About Us page is very detailed and the whole site itself is accessable at any time and simple to understand what the purpose of the site it.         |
+| I want to make the Website viewable on all devices.                      | I coded the website with mobile first responsiveness approach.                                                                                           |
+| I want the site to be easy to understand                                 | The site uses small paragraphs and big headers and images that speak for themselves. That way a user can know at first glance what the website is about. |
+
+`Returning Visitors`
+
+| Goals                                                                   | How are they achieved?                                                                                    |
+| :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
+| I want to be able to keep using the website even if knew features come. | Keep the structure of the site the same, but add a new section that specifically tells users new updates. |
+
+`Frequent Visitors`
+
+| Goals                                                                                                 | How are they achieved?                                                        |
+| :---------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| I want to be able to keep contact with the Frostbite Team to help any issues I have with their games. | Users are able to contact the Company either via E-Mail, Phone and Mail 24/7. |
+
+---
 
 ## Credits
 
