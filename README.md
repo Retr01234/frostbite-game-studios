@@ -27,6 +27,13 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Deployment \& Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
+  - [Testing](#testing)
+    - [W3C Validator](#w3c-validator)
 
 ---
 
@@ -140,3 +147,50 @@ Font Awesome - For Icons.
 [namecheap] (https://www.namecheap.com/logo-maker/app/) to generate a Company Logo
 
 [TextGenerationAPI] (https://deepai.org/machine-learning-model/text-generator) to generate random text for the website.
+
+---
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, (https://github.com/Retr01234/HTML-CSS-Project-1) HTML-CSS-Project-1.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the HTML-CSS-Project-1 repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, (https://github.com/Retr01234/HTML-CSS-Project-1)HTML-CSS-Project-1.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the Bully-Book-Club repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, (<https://github.com/Retr01234/HTML-CSS-Project-1>) HTML-CSS-Project-1.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+---
+
+## Testing
+
+Testing was done constantly before and after pushing new changes to the master branch. However, the biggest issue that I encountered by myself and with my mentor was:
+
+- Responsive Design - The whole page was not as responsive as I thought, but now its viewable on any device.
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
