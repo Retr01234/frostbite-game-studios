@@ -18,7 +18,6 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
   - [Colour Scheme](#Colour-Scheme)
   - [Typography](#Typography)
   - [Imagery](#Imagery)
-  - [Wireframes](#Wireframes)
   - [Features](#Features)
   - [Accessibility](#Accessibility)
 
@@ -97,3 +96,12 @@ Frostbite Studios is a Game Development Startup that develops games on all platf
 ![Frostbite Studios Website Colour Palette](docs/palette.jpg)
 
 This website uses more of a neon color that are often used in more Cyberpunk-ish themes.
+
+### Typography
+
+The main Font used for this entire Website was 'Roboto'.
+
+### Imagery
+
+All images are taken from licence free stock photo website's which will be linked in the [credits](#Credits) section.
+
