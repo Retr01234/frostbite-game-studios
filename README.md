@@ -89,3 +89,11 @@ Frostbite Studios is a Game Development Startup that develops games on all platf
 - I want to be able to contact them at all times, should I have any questions.
 
 ---
+
+## Design
+
+### Colour Scheme
+
+![Frostbite Studios Website Colour Palette](docs/palette.jpg)
+
+This website uses more of a neon color that are often used in more Cyberpunk-ish themes.
