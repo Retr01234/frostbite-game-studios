@@ -238,3 +238,5 @@ Content for this Website was part of the 1st Code Institute Project and purely m
 - [COO] (<https://unsplash.com/photos/ZXfUUM_LR0k>)
 
 ### Acknowledgments
+
+I would sincerely like to thank my Mentor Jubril Akolade for helping me get through this project.
