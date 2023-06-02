@@ -34,7 +34,6 @@ The Frostbite Studios Website can be viewed on all devices to allow users to see
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [W3C Validator](#w3c-validator)
-    - [W3C Validator](#w3c-validator-1)
     - [Manual Testing](#manual-testing)
       - [Testing User Stories](#testing-user-stories)
   - [Credits](#credits)
@@ -211,8 +210,6 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 - [About Us Page HTML](docs/about.png)
 - [Team Page HTML](docs/team.png)
 - [style.css CSS](docs/stylescss.png)
-
-### W3C Validator
 
 ### Manual Testing
 
