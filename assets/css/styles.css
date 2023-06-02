@@ -336,7 +336,7 @@ footer {
     background: url(../images/about-background.jpg) no-repeat center/cover;
 }
 
-#about-header {
+.about-header {
     font-size: 250%;
     margin: 0 auto;
     height: 100px;
@@ -492,7 +492,7 @@ footer {
         display: block;
     }
 
-    #about-header {
+    .about-header {
         font-size: 175%;
         height: 50px;
         padding: 25px 0;
@@ -608,7 +608,7 @@ footer {
         padding: 60px 0 0 0;
     }
 
-    #about-header {
+    .about-header {
         font-size: 175%;
         height: 50px;
         padding: 25px 0;
